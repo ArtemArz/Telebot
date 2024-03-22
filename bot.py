@@ -1,6 +1,6 @@
 import telebot;
 from telebot import types
-bot = telebot.TeleBot('6625414905:AAGZyL6WpggRwX6qZ-hUYuXEkq2x83Gr-Jk');
+bot = telebot.TeleBot('@token@');
 @bot.message_handler(content_types=['text', 'document', 'audio'])
 def get_text_messages(message):
     if message.text == "Привет":
